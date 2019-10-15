@@ -60,6 +60,10 @@ function movieThis(movie) {
             "Cast: " + jsonData.Actors,
         ].join("\n\n");
 
+        fs.appendFile("log.txt", movieData + divider, function(err) {
+            if(err) throw err;
+            console.log(divider + movieData);
+        });
         console.log(divider + movieData);
         });
 }
@@ -84,6 +88,10 @@ function concertThis(concert) {
             "Date: " + jsonData[0].datetime,
         ].join("\n\n");
 
+        fs.appendFile("log.txt", venueData + divider, function(err) {
+            if(err) throw err;
+            console.log(divider + venueData);
+        });
         console.log(divider + venueData + "\n");
         
         });
@@ -115,11 +123,17 @@ function spotifyTrack(track) {
                 "Preview: "  + jsonData.items[i].album.name,
                 "Album: "  + jsonData.items[i].preview_url,
             ].join("\n\n");
-    
+            
+            fs.appendFile("log.txt", albumData + divider, function(err) {
+                if(err) throw err;
+                console.log(divider + albumData);
+            });
+
             console.log(divider + albumData + "\n");
          }   
         })
 
 }
 //END Spotify Function//
+
 runSearch (input, searchType);
