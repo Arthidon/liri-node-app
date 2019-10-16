@@ -89,7 +89,7 @@ function concertThis(concert) {
             "Venue: " + jsonData[0].venue.name,
             "City: " + jsonData[0].venue.city,
             "Country: " + jsonData[0].venue.country,
-            "Date: " + jsonData[0].datetime,
+            "Date: " + moment(jsonData[0].datetime).format("L"),
         ].join("\n\n");
 
         fs.appendFile("log.txt", venueData + divider, function(err) {

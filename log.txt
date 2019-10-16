@@ -616,3 +616,21 @@ Preview: Numb/Encore: MTV Ultimate Mash-Ups Presents Collision Course
 Album: https://p.scdn.co/mp3-preview/0db4038760aa7b37213a9cb7497aaa808cab960f?cid=3e0e39783b384f34bbc7fb9328039f8c
 --------------------------------------------------
 
+Venue: Madison Square Garden
+
+City: New York
+
+Country: United States
+
+Date: 2019-10-19T19:30:00
+--------------------------------------------------
+
+Venue: Madison Square Garden
+
+City: New York
+
+Country: United States
+
+Date: 10/19/2019
+--------------------------------------------------
+
