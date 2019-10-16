@@ -70,7 +70,7 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
 node liri.js movie-this _movie title_
 ```
 
-![movie-this Example](/assets/movie-this.png)
+![movie-this Example](images/movie-this.png)
 
 ### concert-this
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
@@ -83,7 +83,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 node liri.js concert-this _band_
 ```
 
-![concert-this Example](/assets/concert-this.png)
+![concert-this Example](images/concert-this.png)
 
 ### spotify-this-song
 
@@ -100,7 +100,7 @@ If no song is provided then your program will default to "The Sign" by Ace of Ba
 node liri.js spotify-this-song _song name_
 ```
 
-![spotify-this-song Example](/assets/spotify-this.png)
+![spotify-this-song Example](images/spotify-this.png)
 
 ### do-what-it-says
 
@@ -112,4 +112,4 @@ Using the `fs` Node package, LIRI will take the text inside of random.txt and th
 node liri.js do-what-it-says
 ```
 
-![do-what-it-says Example](/assets/do-what-it-says.png)
+![do-what-it-says Example](images/do-what-it-says.png)
