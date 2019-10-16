@@ -6,11 +6,25 @@
 
 ## Overview
 
-The goal here was to make a CLI app called Liri that would search Spotify for songs, Bands in Town for concerts and OMDB for movies. LIRI is a Language Interpretation and Recognition Interface and for this project the main form of interaction will be through Node.jsB
+The goal here was to make a CLI app called Liri that would search Spotify for songs, Bands in Town for concerts and OMDB for movies. LIRI is a Language Interpretation and Recognition Interface and for this project the main form of interaction will be through Node.js
+
+## Technology Used
+
+* JavaScript 
+* Node Package - Axios
+* Node Package - DotEnv
+* Node Package - Moment
+* Node Package - API - Spotify API
+* API - [OMDB](http://omdbapi.com/)
+* API - [Bands In Town](https://app.swaggerhub.com/apis-docs/Bandsintown/PublicAPI/3.0.0)
 
 ## Instructions
 
-You will need to create your own .env file with your own API keys in order to test this project. I won't be retrieving keys from firebase this time.
+You will need to create your own .env file with your own API keys for spotify and [Node] (https://nodejs.org/en/download) installed. 
+
+### Spotify API keys
+* SPOTIFY_ID
+* SPOTIFY_SECRET=
 
 ## Commands
 | App Command       | A Short Description                               |
@@ -60,18 +74,7 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
 *  It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 *  Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
-## Required Tools
 
-* HTML, CSS, JavaScript 
-* Bootstrap 4.3.1 (https://getbootstrap.com/docs/4.3)
-* jQuery Core 3.4.1 (https://code.jquery.com/)
-* Node Package - Axios
-* Node Package - DotEnv
-* Node Package - Inquirer
-* Node Package - Moment
-* Node Package - API - Spotify API
-* API - OMDB
-* API - Bands In Town
 
 
 
