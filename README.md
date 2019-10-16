@@ -1,7 +1,9 @@
 # Liri-App
+<a href="https://drive.google.com/file/d/1Q5LVbj8_40JoHnlCVXvK5pIm6dfUJK6Y/view" target="blank">Video Demo</a><br>
+
 ## Overview
 
-The goal here was to make a javascript app called Liri that would search Spotify for songs, Bands in Town for concerts and OMDB for movies. LIRI is a Language Interpretation and Recognition Interface and for this project the main form of interaction will be through Node.jsB
+The goal here was to make a CLI app called Liri that would search Spotify for songs, Bands in Town for concerts and OMDB for movies. LIRI is a Language Interpretation and Recognition Interface and for this project the main form of interaction will be through Node.jsB
 
 ## Instructions
 
