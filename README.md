@@ -1,7 +1,7 @@
 # Liri-App
 
 <p align="center">
-<a href="https://drive.google.com/file/d/1Q5LVbj8_40JoHnlCVXvK5pIm6dfUJK6Y/view" target="blank">Video Demo</a>
+<a href="https://drive.google.com/file/d/1EvGMgwxtATOxJzSFpcmNqsdWkVbcTwKW/view" target="blank">Video Demo</a>
 </P>
 
 ## Overview
@@ -66,12 +66,24 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
 *  It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 *  Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
+```sh
+node liri.js movie-this _movie title_
+```
+
+![movie-this Example](/assets/movie-this.png)
+
 ### concert-this
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
 *  Name of the venue
 *  Venue location
 *  Date of the Event (use moment to format this as "MM/DD/YYYY")
+
+```sh
+node liri.js concert-this _band_
+```
+
+![concert-this Example](/assets/concert-this.png)
 
 ### spotify-this-song
 
@@ -84,6 +96,20 @@ This will show the following information about the song in your terminal/bash wi
 
 If no song is provided then your program will default to "The Sign" by Ace of Base.
 
+```sh
+node liri.js spotify-this-song _song name_
+```
 
+![spotify-this-song Example](/assets/spotify-this.png)
 
+### do-what-it-says
 
+## Description
+
+Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+
+```sh
+node liri.js do-what-it-says
+```
+
+![do-what-it-says Example](/assets/do-what-it-says.png)
