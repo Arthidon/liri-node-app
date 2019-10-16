@@ -1,7 +1,8 @@
 # Liri-App
+
 <p align="center">
-<a href="https://drive.google.com/file/d/1Q5LVbj8_40JoHnlCVXvK5pIm6dfUJK6Y/view" target="blank">Video Demo</a><br>
-</p>
+<a href="https://drive.google.com/file/d/1Q5LVbj8_40JoHnlCVXvK5pIm6dfUJK6Y/view" target="blank">Video Demo</a>
+</P>
 
 ## Overview
 
