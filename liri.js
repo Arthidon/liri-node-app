@@ -17,9 +17,9 @@ console.log(searchType);
 //User search input Function - determin input type - run command w/ input
 function runSearch (input, searchType) {
 
-        //OMDB//    
+        //Switch Function - determines input / request type//    
     switch(input) {
-                
+        //OMDB// 
         case "movie-this":
                 console.log(searchType);
             movieThis(searchType);
@@ -35,6 +35,10 @@ function runSearch (input, searchType) {
             spotifyTrack(searchType);
             break;
 
+        //Do Random from File//
+        case "do-what-it-says":
+            doRandom();
+            break;
     }
 }
 
@@ -92,7 +96,7 @@ function concertThis(concert) {
             if(err) throw err;
             console.log(divider + venueData);
         });
-        console.log(divider + venueData + "\n");
+        console.log(divider + venueData);
         
         });
 
@@ -136,4 +140,26 @@ function spotifyTrack(track) {
 }
 //END Spotify Function//
 
+//Do Random From File//
+function doRandom(){
+    fs.readFile("random.txt", "utf8", function(err, response){
+        if(err) throw err
+
+        var responseArr = response.split(',');
+        console.log(responseArr);
+        console.log('');
+        console.log('---MAIN--CONTENT---');
+        console.log('');
+       var input = responseArr[0];
+       var searchType = responseArr[1];
+
+       
+       runSearch (input, searchType);
+
+    })
+}
+//END Do Random//
+
+
+//Run Program//
 runSearch (input, searchType);
