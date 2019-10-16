@@ -20,10 +20,10 @@ The goal here was to make a CLI app called Liri that would search Spotify for so
 
 ## Instructions
 
-You will need to create your own .env file with your own API keys for spotify and [Node] (https://nodejs.org/en/download) installed. 
+You will need to create your own .env file with your own API keys for spotify and [Node](https://nodejs.org/en/download) installed. 
 
-### Spotify API keys
-* SPOTIFY_ID
+### .env file format
+* SPOTIFY_ID=
 * SPOTIFY_SECRET=
 
 ## Commands
