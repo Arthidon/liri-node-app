@@ -112,4 +112,4 @@ Using the `fs` Node package, LIRI will take the text inside of random.txt and th
 node liri.js do-what-it-says
 ```
 
-![do-what-it-says Example](images/do-what-it-says.png)
+![do-what-it-says Example](/images/do-what-it-says.png)
